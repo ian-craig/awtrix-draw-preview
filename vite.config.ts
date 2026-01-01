@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: '/awtrix-draw-preview/',
   build: {
     target: 'ES2020',
     outDir: 'dist',
